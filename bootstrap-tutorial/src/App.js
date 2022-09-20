@@ -87,7 +87,7 @@ function App() {
       <Carousel>
         <Carousel.Item>
           <img
-            style={{ width: "100vw", height: "100vh" }}
+            style={{ width: "100vw", height: "100vh", objectFit: "cover"}}
             // className="img-responsive mx-auto"
             src="https://1.bp.blogspot.com/-RET3jzHjUdI/Xd2Z3zO_bVI/AAAAAAAAE-g/m9gTuElmcasdxzCVfI7QrKs6wmFpwW6zQCLcBGAsYHQ/s1600/image10.jpg"
             alt="First slide"
@@ -99,8 +99,8 @@ function App() {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            style={{ width: "100vw", height: "100vh" }}
-            className="img-responsive"
+            style={{ width: "100vw", height: "100vh", objectFit: "cover"}}
+            // className="img-responsive"
             src="https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569__480.jpg"
             alt="Second slide"
           />
@@ -112,8 +112,8 @@ function App() {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            style={{ width: "100vw", height: "100vh" }}
-            className="img-responsive"
+            style={{ width: "100vw", height: "100vh", objectFit: "cover"}}
+            // className="img-responsive"
             src="https://mw1.google.com/mw-planetary/sky/skytiles_v1/74_29_7.jpg"
             alt="Third slide"
           />

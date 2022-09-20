@@ -1,4 +1,8 @@
-
+.carousel_img{
+  object-fit: contain !important;
+  height: 75vh !important;
+  width: 100vw !important
+}
 
 
 
