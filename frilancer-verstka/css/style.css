@@ -203,8 +203,9 @@ dody {
 	letter-spacing: 0.2px;
 	font-weight: 800;
 }
+
 @media(max-width: 479px) {
-	.main-block__title{
+	.main-block__title {
 		font-size: 42px;
 	}
 }
@@ -215,8 +216,9 @@ dody {
 	font-size: 20px;
 	line-height: 150%;
 }
-@media(max-width: 479px){
-	.main-block__text{
+
+@media(max-width: 479px) {
+	.main-block__text {
 		color: #444343;
 
 	}
@@ -241,9 +243,10 @@ dody {
 	padding: 0px 36px;
 	margin: 10px 0;
 }
-@media(max-width: 479px){
+
+@media(max-width: 479px) {
 	.main-block__button {
-		flex:  1 1 100%;
+		flex: 1 1 100%;
 	}
 }
 
@@ -255,7 +258,8 @@ dody {
 .main-block__button:not(:last-child) {
 	margin-right: 10px;
 }
-@media(max-width: 479px){
+
+@media(max-width: 479px) {
 	.main-block__button:not(:last-child) {
 		margin-right: 0px;
 	}
