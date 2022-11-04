@@ -53,6 +53,7 @@ html,
 dody {
 	height: 100%;
 	line-height: 1;
+	background: #fafafa;
 	font-size: 14px;
 	color: #252B42;
 	font-weight: 500;
@@ -188,6 +189,10 @@ dody {
 	font-weight: 700;
 }
 
+.header-bloc__title:not(:last-child) {
+	margin: 0px 0px 10px 0px;
+}
+
 .header-bloc__sub-title {
 	color: #737373;
 	font-size: 14px;
@@ -215,7 +220,7 @@ dody {
 
 @media(max-width: 992px) {
 	.main-block__body {
-		padding: 115px 0px 160px 0px;
+		padding: 115px 0px 191px 0px;
 	}
 }
 
@@ -323,7 +328,8 @@ dody {
 
 /* ---------------------- */
 
-.services {}
+.services {
+}
 
 .services__container {}
 
@@ -406,19 +412,33 @@ dody {
 
 /*-------------*/
 
-.adventages {}
+.adventages {
+	padding: 80px 0px;
+}
 
 .adventages__container {}
 
 ._container {}
 
-.adventages__header {}
+.adventages__header {
+	margin: 0px 0px 50px 0px;
+}
 
-.adventages__body {}
+.adventages__body {
+	display: flex;
+	margin: 0px -15px;
+}
 
-.adventages__column {}
+.adventages__column {
+	padding: 0px 15px;
+	flex: 0 1 25%;
+}
 
-.adventages__item {}
+.adventages__item {
+	background-color: #fff;
+	padding: 30px 40px;
+	text-align: center;
+}
 
 .adventages__icon {}
 
