@@ -328,8 +328,7 @@ dody {
 
 /* ---------------------- */
 
-.services {
-}
+.services {}
 
 .services__container {}
 
@@ -418,8 +417,6 @@ dody {
 
 .adventages__container {}
 
-._container {}
-
 .adventages__header {
 	margin: 0px 0px 50px 0px;
 }
@@ -436,12 +433,29 @@ dody {
 
 .adventages__item {
 	background-color: #fff;
-	padding: 30px 40px;
+	padding: 30px;
 	text-align: center;
+	font-weight: 700;
+}
+.adventages__item > *:not(:last-child){
+	margin: 0px 0px 10px 0px;
 }
 
-.adventages__icon {}
+.adventages__icon {
+	height: 48px;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+}
 
-.adventages__value {}
+.adventages__value {
+	font-size: 40px;
+	line-height: 142%;
+}
 
-.adventages__text {}
+.adventages__text {
+	letter-spacing: 0.1px;
+	color: #737373;
+	font-size: 16px;
+	line-height: 150%;
+}
