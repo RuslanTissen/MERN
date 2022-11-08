@@ -394,7 +394,10 @@ dody {
 	margin: 0px 0px 10px 0px;
 }
 
-.item-service__icon {}
+.item-service__icon {
+	height: 48px;
+	
+}
 
 .item-service__title {
 	font-weight: 700;
@@ -406,7 +409,7 @@ dody {
 
 .item-service__text {
 	color: #737373;
-	line-height: 142%;
+	/* line-height: 142%; */
 }
 
 /*-------------*/
