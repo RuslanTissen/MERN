@@ -615,19 +615,14 @@ dody {
 	margin: 0px 0px 100px 0px;
 }
 
-.header-block {
-}
-
-.header-bloc__title {
-}
-
-.header-bloc__sub-title {
-}
 .whoweare__body {
+	display: flex;
 }
 .whoweare__video {
+	flex: 0 0 57%;
 }
 .whoweare__content {
+	flex: 1 1 auto;
 }
 .whoweare__title {
 }
