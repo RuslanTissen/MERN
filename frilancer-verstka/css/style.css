@@ -620,11 +620,26 @@ dody {
 }
 .whoweare__video {
 	flex: 0 0 57%;
+	position: relative;
+	padding: 0px 0px 42.25% 0px;
+}
+.whoweare__video iframe {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	object-fit: cover;
 }
 .whoweare__content {
 	flex: 1 1 auto;
+	padding: 0px 0px 0px 121px;
 }
 .whoweare__title {
+font-weight: 800;
+font-size: 40px;
+line-height: 142%;
+letter-spacing: 0.2px;
 }
 
 .whoweare__text {
