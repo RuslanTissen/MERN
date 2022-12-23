@@ -636,13 +636,21 @@ dody {
 	padding: 0px 0px 0px 121px;
 }
 .whoweare__title {
-font-weight: 800;
-font-size: 40px;
-line-height: 142%;
-letter-spacing: 0.2px;
+	font-weight: 800;
+	font-size: 40px;
+	line-height: 142%;
+	letter-spacing: 0.2px;
+}
+.whoweare__title :not(:last-child) {
+	margin: 0px 0px 50px 0px;
 }
 
 .whoweare__text {
+	color: #737373;
+	line-height: 142%;
+}
+.whoweare__text:not(:last-child) {
+	margin: 0px 0px 50px 0px;
 }
 
 .whoweare__items {
